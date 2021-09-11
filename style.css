@@ -1,9 +1,3 @@
-body {
-    background-color:rgb(43, 51, 119);
-}
-h1 {
-    font-size: 45px;
-}
-.title {
-    font-size: 45px;
+.exemple-block {
+    padding: 40px;
 }

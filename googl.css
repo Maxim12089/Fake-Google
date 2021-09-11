@@ -1,5 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .menu {
     text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    margin-left: 15px;
 }
 
 .logo {
@@ -44,4 +58,57 @@
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+.bulgaria {
+    background-color: #f8f9fa;
+    margin: 0px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.qwer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between
+}
+
+.eee {
+    border-bottom: 1px solid rgb(218, 220, 224);
+    padding: 20px;
+}
+
+.left {
+    width: 100%;
+}
+
+.left a {
+    margin-right: 15px;
+}
+
+.right {
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+}
+
+.right a {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ttt {
+    position: absolute;
+    background-color: #f8f9fa;
+    bottom: 0;
+    width: 100%;
 }
